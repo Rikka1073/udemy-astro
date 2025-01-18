@@ -1,0 +1,10 @@
+html {
+  background-color: rgb(211, 18, 224);
+  font-family: sans-serif;
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
