@@ -1,14 +1,17 @@
+---
+import Footer from "./Footer.astro";
+import Navigation from "./Navigation.astro";
+---
+
 <div id="container">
-	<main>
+  <main>
     <h1>記事</h1>
-		<a href="/">Home</a>
-		<a href="/about">About</a>
-		<a href="/blog">Blog</a>
+    <Navigation />
     <div>
       <a href="/post/post-1">記事1</a>
       <a href="/post/post-2">記事2</a>
       <a href="/post/post-3">記事3</a>
     </div>
-	</main>
+    <Footer />
+  </main>
 </div>
-

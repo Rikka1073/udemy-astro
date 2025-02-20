@@ -1,5 +1,7 @@
 ---
 import "../styles/global.css";
+import Footer from "./Footer.astro";
+import Navigation from "./Navigation.astro";
 const pageTitle = "おはよう";
 const identity = {
   name: "Masafumi",
@@ -20,9 +22,7 @@ const color = "green";
 <div id="container">
   <main>
     <h1>{pageTitle}</h1>
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/blog">Blog</a>
+    <Navigation />
     <p>私について</p>
     <ul>
       <li>私にの名前は{identity.name}です</li>
@@ -36,6 +36,7 @@ const color = "green";
         ))
       }
     </ul>
+    <Footer />
   </main>
 </div>
 
