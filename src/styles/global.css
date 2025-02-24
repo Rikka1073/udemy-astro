@@ -22,7 +22,12 @@ body {
     display: none;
   }
 }
-.nav-links {
+.nab-links {
+  display: none;
+}
+
+.expanded {
+  display: block;
 }
 
 .hamburger {

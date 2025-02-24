@@ -1,8 +1,9 @@
 ---
-import BlogComponents from '../components/Blog.astro';
-import Layout from '../layouts/Layout.astro';
+import BlogComponents from "../components/Blog.astro";
+import Layout from "../layouts/Layout.astro";
+const pageTitle = "Blog";
 ---
 
-<Layout>
-	<BlogComponents />
+<Layout pageTitle={pageTitle}>
+  <BlogComponents />
 </Layout>
